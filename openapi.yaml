@@ -5,9 +5,9 @@ info:
     This is a sample API specification
   version: 1.0.0
 servers:
-  - url: http://teacherservice-3510747030:5000/
+  - url: https://50bd1911-1fb1-4680-88bb-05745d943012-dev.e1-eu-north-azure.choreoapis.dev/soa-project/teacherservice/v1.0/teacher-service
 paths:
-  /teacher-service/fetch-all:
+  /fetch-all:
     summary: List all teachers
     get:
       summary: List all teachers
