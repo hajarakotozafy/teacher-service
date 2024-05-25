@@ -10,5 +10,5 @@ endpoints:
   # +required Type of the traffic this endpoint is accepting. Example: REST, GraphQL, etc.
   # Allowed values: REST, GraphQL, GRPC, UDP, TCP
   type: REST
-  context: /
+  context: /teacher-service
   schemaFilePath: openapi.yaml
