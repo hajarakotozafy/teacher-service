@@ -6,4 +6,7 @@ module.exports = (app) => {
     app.get("/teacher-service/fetch-one", controller.findOneTeacherByRegNum);
     app.put("/teacher-service/update-one", controller.updateTeacherByRegNum);
     app.delete("/teacher-service/delete-one", controller.deleteTeacherByRegNum);
+    app.get("/teacher-service/test", (req, res) => {
+        res.send("hello world")
+    })
 }
