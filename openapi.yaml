@@ -21,6 +21,21 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/KeyValue"
+  
+  /test:
+    summary: Test
+    get:
+      summary: Test
+      operationId: Test
+      tags:
+        - test
+      responses:
+        "200":
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Key"
 
 components:
   schemas:
